@@ -2,12 +2,14 @@ import Container from '@mui/material/Container';
 // import { sellingArr } from 'src/_mock/Home';
 import HeaderCell from 'src/components/heading-bar/heading';
 import { Box } from '@mui/material';
+import Wall from '../wall';
 import HeroSlider from '../hero-section';
 
 import SellingStore from '../best-selling';
 // import SponsoredStore from '../sponsored-store';
 import About from '../about';
 import NewArticles from '../new-articles';
+import Door from '../door';
 
 
 // ----------------------------------------------------------------------
@@ -41,6 +43,24 @@ export default function HomeView() {
         </Container>
       </Box>
      
+      <Box position="relative">
+        <Container>
+          <Box sx={{ mt: 6 }} >
+            <HeaderCell heading="طلاء الجدران" />
+          </Box>
+          <Wall />
+        </Container>
+      </Box>
+      <Box position="relative">
+        <Container>
+          <Box sx={{ mt: 6 }} >
+            <HeaderCell heading="طلاء الباب" />
+          </Box>
+          <Door />
+        </Container>
+      </Box>
+
+
     </Box>
   );
 }

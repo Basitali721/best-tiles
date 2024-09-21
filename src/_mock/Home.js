@@ -64,5 +64,58 @@ const NewArr = [
   },
  
 ];
+const Wallp =[
+  {
+    img: '/assets/New-folder/wall.jpeg',
+  },
+  {
+    img: '/assets/New-folder/wall2.jpeg',
+  },
+  {
+    img: '/assets/New-folder/wall3.png',
+  },
+  {
+    img: '/assets/New-folder/wall4.webp',
+  },
+  {
+    img: '/assets/New-folder/wall5.jpeg',
+  },
+  {
+    img: '/assets/New-folder/wall6.jpeg',
+  },
+  {
+    img: '/assets/New-folder/wall7.jpg',
+  },
+  {
+    img: '/assets/New-folder/wall8.jpg',
+  },
 
-export { sellingArr, NewArr };
+];
+const Doorp =[
+  {
+    img: '/assets/New-folder/door1.webp',
+  },
+  {
+    img: '/assets/New-folder/door2.jpg',
+  },
+  {
+    img: '/assets/New-folder/door3.jpg',
+  },
+  {
+    img: '/assets/New-folder/door4.jpg',
+  },
+  {
+    img: '/assets/New-folder/door5.jpg',
+  },
+  {
+    img: '/assets/New-folder/door6.jpg',
+  },
+  {
+    img: '/assets/New-folder/door7.jpeg',
+  },
+  {
+    img: '/assets/New-folder/door8.webp',
+  },
+]
+
+export { sellingArr, NewArr,Wallp,Doorp };
