@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title> SellStore </title>
+        <title> Zohaib-Tiles </title>
       </Helmet>
 
       <HomeView />
